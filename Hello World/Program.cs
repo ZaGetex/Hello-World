@@ -12,8 +12,19 @@ namespace Hello_World
             {
                 Console.WriteLine("Hallo bist du da?");
                 Antwort = Console.ReadLine();
+
                 if (Antwort == "Ja")
                     Console.WriteLine("Ich bin auch da!");
+                        if (Antwort == "ja")
+                    Console.WriteLine("Ich bin auch da!");
+                   
+
+                if (Antwort == "Illuminati")
+                    Console.WriteLine("WOHER WUSSSTEST DU DAS?");
+                if (Antwort == "Wie geht es dir?")
+                    Console.WriteLine("Gut? Und dir?");
+                if (Antwort == "Auch gut")
+                    Console.WriteLine("Das weiß ich, denn ich bin allwissend!");
                 if (Antwort == "Nein")
                     Console.WriteLine("Wenn du nicht da bist gehe ich jetzt!");
 
@@ -22,9 +33,7 @@ namespace Hello_World
                     Console.WriteLine("Wenn du nicht da bist gehe ich jetzt!");
                     Antwort = "Nein";
                     break;
-                }
-            
-
+                 }
 
             }
 
