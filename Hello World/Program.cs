@@ -30,7 +30,7 @@ namespace Hello_World
 
                 if (Antwort == "nein")
                 {
-                    Console.WriteLine("Wenn du nicht da bist gehe ich jetzt!");
+                    Console.WriteLine("Wenn du nicht da bist, gehe ich jetzt!");
                     Antwort = "Nein";
                     break;
                  }
